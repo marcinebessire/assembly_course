@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But don't ignore the .gitignore file itself
+!.gitignore
+
+# Don't ignore the scripts folder
+!scripts/
+
+
