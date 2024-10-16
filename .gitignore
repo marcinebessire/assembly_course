@@ -7,4 +7,4 @@
 # Don't ignore the scripts folder
 !scripts/
 
-
+!scripts/**
