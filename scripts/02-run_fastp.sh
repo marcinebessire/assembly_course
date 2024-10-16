@@ -31,5 +31,3 @@ REPORT="$REPORTDIR/fastp_rnaseq_report.html"
 
 # Run fastp for paired-end reads
 fastp -i $INPUT_R1 -I $INPUT_R2 -o $OUTPUT_R1 -O $OUTPUT_R2 -h $REPORT
-
-
