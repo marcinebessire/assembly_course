@@ -5,8 +5,8 @@
 #SBATCH --time=1-00:00:00
 #SBATCH --mem=64G
 #SBATCH --cpus-per-task=16
-#SBATCH --output=/data/users/mbessire/assembly_annotation_course/logs/bucso_%j.o
-#SBATCH --error=/data/users/mbessire/assembly_annotation_course/logs/busco_%j.e
+#SBATCH --output=/data/users/mbessire/assembly_course/logs/bucso_%j.o
+#SBATCH --error=/data/users/mbessire/assembly_course/logs/busco_%j.e
 
 # load modules
 
@@ -16,7 +16,7 @@ ASSEMBLY_HIFIASM=/data/users/mbessire/assembly_course/busco/short_summary.specif
 ASSEMBLY_LJA=/data/users/mbessire/assembly_course/busco/short_summary.specific.brassicales_odb10.lja.txt
 ASSEMBLY_FLYE=/data/users/mbessire/assembly_course/busco/short_summary.specific.brassicales_odb10.flye.txt
 ASSEMBLY_TRINITY=/data/users/mbessire/assembly_course/busco/short_summary.specific.brassicales_odb10.trinity.txt
-OUT_DIR="/data/users/mbessire/assembly_annotation_course/busco/all"
+OUT_DIR="/data/users/mbessire/assembly_course/busco/all"
 CONTAINER_SIF=/containers/apptainer/busco_5.7.1.sif
 
 # create directory if not available
